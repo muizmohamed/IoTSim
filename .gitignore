@@ -1,0 +1,35 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# Rider
+.idea/
+
+# Build artifacts
+bin/
+obj/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.rsuser
+*.sln.docstates
+
+# NuGet packages
+*.nupkg
+
+# Logs
+*.log
+
+# Coverage
+coverage*
+
+# Test results
+TestResults/
+
+# Other
+*.db

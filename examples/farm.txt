@@ -1,0 +1,6 @@
+add sensor SoilMoisture
+add actuator WaterPump
+set 1 15
+send 1 2 Soil dry, start irrigation
+toggle 2
+status

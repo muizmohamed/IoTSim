@@ -1,0 +1,6 @@
+add sensor TempSensor
+add actuator Fan
+set 1 30
+send 1 2 Temperature high, turn on fan
+toggle 2
+status
