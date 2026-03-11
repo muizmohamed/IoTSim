@@ -22,7 +22,7 @@
 ## 📖 Project Description
 IoTSim is an open-source text-based simulator for IoT devices.  
 It allows you to add sensors and actuators, send messages between them, set values, and run simulation scenarios.  
-The project is built with **.NET 8** and designed for cross-platform use (Windows, Linux, Mac).
+The project is built with **.NET 9** and designed for cross-platform use (Windows, Linux, Mac).
 
 ---
 
