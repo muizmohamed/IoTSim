@@ -2,6 +2,9 @@
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/muizmohamed/IoTSim/ci.yml?branch=main)](https://github.com/muizmohamed/IoTSim/actions)
 [![License](https://img.shields.io/github/license/muizmohamed/IoTSim)](LICENSE)
+[![Coverage Status](https://img.shields.io/codecov/c/github/muizmohamed/IoTSim)](https://codecov.io/gh/muizmohamed/IoTSim)
+[![Contributors](https://img.shields.io/github/contributors/muizmohamed/IoTSim)](https://github.com/muizmohamed/IoTSim/graphs/contributors)
+[![Issues](https://img.shields.io/github/issues/muizmohamed/IoTSim)](https://github.com/muizmohamed/IoTSim/issues)
 
 ---
 

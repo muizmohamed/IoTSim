@@ -5,20 +5,23 @@ namespace IoTSim.Tests
     public class DeviceTests
     {
         [Fact]
-        public void DeviceToggleChangesState()
+        public void Toggle_ShouldChangeState()
         {
-            var d = new Device(1, DeviceType.Sensor, "TempSensor");
-            var initial = d.State;
-            d.Toggle();
-            Assert.NotEqual(initial, d.State);
+            var device = new Device(1, DeviceType.Sensor, "TempSensor");
+            var initialState = device.State;
+
+            device.Toggle();
+
+            Assert.NotEqual(initialState, device.State);
         }
 
         [Fact]
-        public void SetValueUpdatesValue()
+        public void SetValue_ShouldUpdateValue()
         {
-            var d = new Device(2, DeviceType.Sensor, "S");
-            d.SetValue(12.5);
-            Assert.Equal(12.5, d.Value);
+            var device = new Device(2, DeviceType.Sensor, "HumiditySensor");
+            device.SetValue(55.5);
+
+            Assert.Equal(55.5, device.Value);
         }
     }
 }
